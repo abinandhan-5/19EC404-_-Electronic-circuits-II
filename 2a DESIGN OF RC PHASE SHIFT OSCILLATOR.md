@@ -1,33 +1,46 @@
-## Exp. No. 2(a)
-**Date:**  
 
-## DESIGN OF RC PHASE SHIFT OSCILLATOR
-<img width="482" height="638" alt="image" src="https://github.com/user-attachments/assets/d7a08edc-71f1-467d-9e20-747bdeee319d" />
-<img width="402" height="680" alt="image" src="https://github.com/user-attachments/assets/3c9afd81-9c22-4fce-b988-3a1ba4a59f73" />
-<img width="421" height="708" alt="image" src="https://github.com/user-attachments/assets/c5388468-c561-4739-8ff2-8eedbf2b4233" />
-<img width="414" height="61" alt="image" src="https://github.com/user-attachments/assets/e6cad185-e6a0-41a3-a808-2e4b890e4ef7" />
+## Exp. No. 1(d)
+**Date:06/09/2025**  
 
+## FREQUENCY RESPONSE OF CURRENT SHUNT FEEDBACK AMPLIFIER
+<img width="789" height="845" alt="image" src="https://github.com/user-attachments/assets/151287ca-5058-472f-85c6-c96d7f7ac1b7" />
+<img width="708" height="1064" alt="image" src="https://github.com/user-attachments/assets/0fdaec63-fc27-4b5f-afdc-54f8b33d5bd2" />
+<img width="739" height="1009" alt="image" src="https://github.com/user-attachments/assets/9d4f63ba-2773-4066-b188-795e6e646b6b" />
 
 # Circuit Diagram 
-<img width="486" height="409" alt="image" src="https://github.com/user-attachments/assets/70da1bde-cdfe-4270-bd1d-c82fbc1bffd3" />
+# Without Feedback:
+<img width="699" height="528" alt="image" src="https://github.com/user-attachments/assets/3309ec67-7bbe-42aa-9ba7-69ebfcca687e" />
 
+# With Feedback:
+<img width="787" height="613" alt="image" src="https://github.com/user-attachments/assets/ce6df7b4-b76c-4d4a-b54d-f49f67a6edc8" />
 
 # Tabulation
-| Amplitude | Time Period | Practical Frequency | Theoretical Frequency |
-|------------|--------------|----------------------|------------------------|
-|            |              |                      |                        |
+
+![2a table](https://github.com/user-attachments/assets/7a2fa5a3-877d-4659-b4df-05025f981a15)
+
 
 # Graph
 
+![2a graph](https://github.com/user-attachments/assets/5ea7add8-197c-4304-923a-1bc5c58fef71)
 
 
-# Sample images 
+### **Result**
+
+Thus the current shunt feedback amplifier is designed and constructed  and the following parameters are calculated.
+| S.No | Parameters | Without Feedback | With Feedback |
+|:----:|-------------|:----------------:|:--------------:|
+| 1 | Lower cut-off frequency | = 0.4khz | = 0.5khz |
+| 2 | Upper cut-off frequency | = 140khz| = 520khz |
+| 3 | Bandwidth | \( BW = fh - fl = 139.6khz\) | \( BW = f'h - f'l = 519.5khz\) |
+| 4 | Mid-band Gain | \( A{v(mid)} = 7.36\) | \( A'{v(mid)} = 3.21\) |
+| 5 | Gain at half power point |4.71  | 2.1 |
+
+---
+
+**Conclusion:**  
+The frequency response of the current shunt feedback amplifier was studied. It was observed that the **gain decreases** while the **bandwidth increases** when negative feedback is applied, confirming the theoretical expectations.
+
+---
 
 
-
-# Result
-
-Thus, the **RC Phase Shift Oscillator** was designed for the given frequency.
-
-- **(i) Theoretical Frequency:**  
-- **(ii) Practical Frequency:**  
+**End of Experiment**
